@@ -1,0 +1,13 @@
+ .my_div img{
+   /* content: url(img/4.jpg);  */
+   border-image-width: auto;
+   image-rendering: optimizeSpeed;
+   image-rendering: auto;
+   background-color: rgb(61, 23, 97);
+
+} 
+.para-style{
+    font-size: 30px;
+    color: brown;
+}
+

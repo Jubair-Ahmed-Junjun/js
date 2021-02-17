@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        var number1 = prompt("Enter First Number :");
+        var number2 = prompt("Enter Second Number : ");
+        number1 = parseInt(number1);
+        number2 = parseInt(number2);
+        var result;
+        result = number1 + number2;
+        document.write("The Addition Value is : "+number1 + "+" +number2 +"="+result+"<br>");
+        result = number1 - number2;
+        document.write("The Subtraction Value is : "+number1 + "-" +number2 +"="+result+"<br>");
+        result = number1 * number2;
+        document.write("The Multiplication Value is : "+number1 + "*" +number2 +"="+result+"<br>");
+        result = number1 / number2;
+        document.write("The division Value is : "+number1 + "/" +number2 +"="+result+"<br>");
+        result = number1 % number2;
+        document.write("The Reminder Value is : "+number1 + "%" +number2 +"="+result+"<br>");        
+    </script>
+</body>
+</html>
